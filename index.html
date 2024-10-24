@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+   <!-- cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move button up -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- navgaition -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certificate">certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/kuldeep-rajpoot-b62330322/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/rajpootkuldeep03"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/kdsingh.101/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one"> Hello, I' Kuldeep Rajpoot</div>
+          <div class="text-two">Software Engineer</div>
+        </div>
+        <div class="button">
+          <button>Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="kd1.png"/>
+          </div>
+          <div class="right">
+            <div class="topic">Software Engineer</div>
+              <p>I am an Aspiring Software Engineer For Technology And Problem Solving. With Foundation in Programming Language such as Java(DSA), 
+              JavaScript, HTML, CSS, SQL. And I Build The Projects Like Web Development, Algorithm, Data Structure.</p>
+              <div class="button">
+              <button>Download Resume</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+            </div>
+              <div class="topic">- Java (DSA)</div>
+              <div class="topic">- C Language</div>
+              <div class="topic">- HTML</div>
+              <div class="topic">- CSS</div>
+              <div class="topic">- JavaScript</div>
+              <div class="topic">- SQL</div>
+    </section>
+
+    <!-- Certificate -->
+    <section class="certificate" id="certificate">
+      <div class="content">
+        <div class="title"><span>My certificate</span></div>
+            </div>
+        <div class="topic">- Certificate<a href="https://www.linkedin.com/in/kuldeep-rajpoot-b62330322/details/certifications/1729270841835/single-media-viewer/?profileId=ACoAAFGP_XoBUjY5r42nIP8IOjL9MBJ2mjKXzx8">- DSA(java)</a></div>
+        <div class="topic">- Certificate<a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/Wb4yEmHvZrC2qxiyX_JPMorgan%20Chase%20&%20Co._thAKiHkc5LpZrGfyE_1726998639316_completion_certificate.pdf">- Job Simulation</a></div>
+        <div class="topic">- Certificate<a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxODExIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNTA1ODU1NF8xNzEzNDkyNTUxLnBuZyIsInVzZXJuYW1lIjoiS3VsZGVlcCBSYWpwb290ICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_5058554_1713492551.png&_branch_match_id=1377614928613251912&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1i9xz%2FbIM43yDPJJsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwDcCSIyPwAAAA%3D%3D">- SQL</a></div>
+        <div class="topic">- Certificate<a href="https://www.coursera.org/account/accomplishments/verify/JJMFN0BIYT99">- Intro-Excel</a></div>
+      </section>
+
+       <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text"></div>
+        <div class="topic">- Email<a href="#">- rajpootkuldeep301@gmail.com</a></div>
+        <div class="topic">- Mob<a href="#">- 9170001242</a></div>
+      <div>
+      <div class="contact-form-container">
+          <h2>Contact Us</h2>
+          <form id="contactForm">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" 
+                         name="name" 
+                         placeholder="Your Name" required>
+                  <span class="error-message" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" 
+                         name="email" 
+                         placeholder="Your Email" required>
+                  <span class="error-message" id="emailError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" 
+                         name="phone" 
+                         placeholder="Your Phone Number" required>
+                  <span class="error-message" id="phoneError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" 
+                            name="message" 
+                            placeholder="Your Message" 
+                            rows="5" required></textarea>
+                  <span class="error-message" 
+                        id="messageError"></span>
+              </div>
+              <button type="submit" 
+                      class="submit-button">
+                Send Message
+              </button>
+          </form>
+      </div>
+     
+    <!-- Footer -->
+    <footer>
+      <div class="text">
+        <span>Created By Kuldeep Rajpoot | Thanks For Visit My Portfolio.</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
