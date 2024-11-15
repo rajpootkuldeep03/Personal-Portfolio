@@ -124,15 +124,15 @@ nav.sticky .menu-btn{
   color: black;
   font-size: 80px;
   font-weight: 500;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 .home .text-two{
-  font-size: 45px;
-  margin-left:650px ;
+  font-size: 35px;
+  margin-left:300px ;
   color: #0f21bd;
 }
   .home .button{
-    margin-left: 760px;
+    margin-left: 300px;
   }
   .home .button button{
     outline: none;
